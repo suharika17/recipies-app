@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+    font-family: young serif;
+    color: hsl(14, 45%, 36%);
+}
+
+.image-container {
+    height: 220px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-section {
+    padding: 25px 30px;
+}
+
+p,
+h3,
+li {
+    font-family: 'Outfit';
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin: 0;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Young Serif';
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.main-paragraph {
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.prep-container {
+    background: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.prep-list-item {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    margin: 0;
+}
+
+.prep-li,
+.ing-li,
+.ins-li {
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 13px;
+
+}
+
+.ing-li {
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.ingridents-box {
+    padding: 20px 0;
+}
+
+
+.ins-li .prep-list-item {
+    font-size: 14px;
+}
+
+.nut-li {
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+}
+
+.nut-table {
+    width: 100%;
+    font-family: 'Outfit';
+}
+
+.first-row {
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+.second-row {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+tr {
+    display: flex;
+    padding: 6px 0px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background: hsl(30, 54%, 90%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desktop-view {
+        width: 50%;
+        margin: 50px 0;
+        border-radius: 30px;
+        background: #fff;
+    }
+
+    .image-container{
+        padding: 20px;
+    }
+
+    .image-container img{
+        border-radius: 15px;
+    }
+}
